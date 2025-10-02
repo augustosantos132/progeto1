@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .tamnho{
+            width: 45%;
+            height: 50vh;
+            margin: 2%;
+            border: 2px solid black;
+            display: inline-block;
+            text-align: center;
+            background-color: rgb(158,236,241);
+        }
+        header{
+            background-image: linear-gradient(to left, rgb(0, 162, 255), rgb(158,236,241));
+        }
+        #cx1{
+            background-image: url(cachorro.jpg);
+        }
+        #cx2{
+            background-image:url(cachorro.jpg);
+        }
+        #cx3{
+            background-image: url(cachorro.jpg);
+            background-repeat: initial;
+        }
+        #cx4{
+            background-image: url(cachorro.jpg);
+            background-repeat: repeat-x;
+        } 
+        #cx5{
+            background-image: url(cachorro.jpg);
+            background-repeat: repeat-y;
+        }
+        #cx6{
+            background-image: url(cachorro.jpg);
+            background-position: left top;
+            background-repeat: no-repeat;
+        }
+        #cx7{
+            background-image: url(cachorro.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+        #cx8{
+            background-image: url(cachorro.jpg);
+            background-position: right top;
+            background-repeat: no-repeat;
+
+        }
+        #cx9{
+            background-image: url(cachorro.jpg);
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
+        #cx10{
+            background-image: url(cachorro.jpg);
+            background-position: right bottom;
+            background-repeat: no-repeat;
+        }
+        #cx11{
+            background-image: url(cachorro.jpg);
+            background-position: center bottom;
+            background-repeat: no-repeat;
+        } 
+        #cx12{
+            background-image: url(cachorro.jpgg);
+            background-position: left bottom;
+            background-repeat: no-repeat;
+        }
+        #cx13{
+            background-image: url(cachorro.jpg);
+            background-position: left center;
+            background-repeat: no-repeat;
+        }
+        #cx14{
+            background-image: url(cachorro.jpg);
+            background-position: center center;
+
+            background-repeat: no-repeat;
+        }
+        #cx15{
+            background-image: url(cachorro.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #cx16{
+            background-image: url(cachorro.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        #cx17{
+            background-image: url(cachorro.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100% 50%;
+        }
+        #cx18{
+            background-image: url(cachorro.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size:50% 100%;
+        }#cx19{
+            background-image: url(cachorro.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        #cx20{
+            background-image: url(cachorro.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        main{
+            background-image: url(cachorro.jpg);
+            background-size: 50px;
+            margin: 7%;
+            background-attachment: fixed;
+        }body{
+            background-image: url(cachorro.jpg);
+            background-size: 15px;
+            background-attachment: scroll;
+            /*backgrond rola junto com o conteudo*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inserindo imagens de fundo background</h1>
+        <p>para inserirmos o background no css vamos utilzar o backgrond iamage</p>
+        <p>Depoi vamos inserir a rul()</p>
+        <p>Este url pode ser</p>
+        <p>O nome completo da imagen (inclusive com o caminho da pasta)</p>
+        <p> link da imagem (este é um link externo)</p>
+
+        </header>
+
+        <main>
+            <div class="tamnho" id="cx1"> <h2>Imagem inserida como o nome.</h2></div>
+            <div class="tamnho" id="cx2"> <h2>Imagem inserida com a url.</h2></div>
+            <div class="tamnho" id="cx3"> <h2>sem repetição de imagem.</h2></div>
+            <div class="tamnho" id="cx4"> <h2>com repetição horizontal</h2></div>
+            <div class="tamnho" id="cx5"> <h2>com repetição na vertical.</h2></div>
+            <div class="tamnho" id="cx6"> <h2>Alinhado a esquerda suprior.</h2></div>
+            <div class="tamnho" id="cx7"> <h2>Alinha ao centro superior.</h2></div>
+            <div class="tamnho" id="cx8"> <h2>Alinha a dirieta superior.</h2></div>
+            <div class="tamnho" id="cx9"> <h2>Alinha a direita no centro.</h2></div>
+            <div class="tamnho" id="cx10"> <h2>Alinha a direita inferior.</h2></div>
+            <div class="tamnho" id="cx11"> <h2>Alinha ao centro inferior.</h2></div>
+            <div class="tamnho" id="cx12"> <h2>Alinhado a esquerda inferior.</h2></div>
+            <div class="tamnho" id="cx13"> <h2>Alinhado a esquerda no centro.</h2></div>
+            <div class="tamnho" id="cx14"> <h2>Alinhadoo ao centro.</h2></div>
+            <div class="tamnho" id="cx15"> <h2>Ajustado 100% de largura.</h2></div>
+            <div class="tamnho" id="cx16"> <h2>Ajustado 100% da verdical e horizontal.</h2></div>
+            <div class="tamnho" id="cx17"> <h2>Ajuste com 100% de largura.</h2></div>
+            <div class="tamnho" id="cx18"> <h2>Ajuste com 50% e 100% exibida sem cores.</h2></div>
+            <div class="tamnho" id="cx19"> <h2>ajuste a imagem 100% exibida sem cortes.</h2></div>
+            <div class="tamnho" id="cx20"> <h2>Alinhado a esquerda no centro.</h2></div>
+        </main>
+    </style>
+</body>
+</html>
